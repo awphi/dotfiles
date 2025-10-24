@@ -17,5 +17,16 @@
     "mode": "system",
     "light": "Ayu Light",
     "dark": "New Darcula"
+  },
+  "auto_install_extensions": {
+    "html": true,
+    "dockerfile": true,
+    "new-darcula": true,
+    "material-icon-theme": true,
+    "log": true,
+    "graphql": true,
+    "docker-compose": true,
+    "svelte": true,
+    "sql": true
   }
 }
