@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # CLI tools
 brew install ripgrep
 brew install mise
