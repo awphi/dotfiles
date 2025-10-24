@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "vim_mode": false,
   "ui_font_family": "Hack Nerd Font Mono",
   "buffer_font_family": "Hack Nerd Font Mono",
   "icon_theme": "Material Icon Theme",
@@ -28,7 +29,8 @@
     "docker-compose": true,
     "svelte": true,
     "sql": true,
-    "toml": true
+    "toml": true,
+    "git-firefly": true
   },
   "git": {
     "inline_blame": {
