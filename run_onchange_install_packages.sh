@@ -5,6 +5,7 @@ brew install ripgrep
 brew install --cask codex
 brew install colima
 brew install zsh-autosuggestions
+brew install gh
 
 # Mise
 brew install mise
