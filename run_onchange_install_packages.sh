@@ -10,6 +10,10 @@ brew install zsh-autosuggestions
 brew install mise
 mise install
 
+# https://mise.jdx.dev/configuration.html#idiomatic-version-files
+mise settings add idiomatic_version_file_enable_tools python
+mise settings add idiomatic_version_file_enable_tools node
+
 # Terminal prompt
 brew install starship
 
