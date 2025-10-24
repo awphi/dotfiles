@@ -4,7 +4,6 @@
 brew install ripgrep
 brew install mise
 brew install --cask codex
-brew install git
 
 # Terminal prompt
 brew install starship
