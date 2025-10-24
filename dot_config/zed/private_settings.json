@@ -11,8 +11,8 @@
   "buffer_font_family": "Hack Nerd Font Mono",
   "icon_theme": "Material Icon Theme",
   "base_keymap": "JetBrains",
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "ui_font_size": 14,
+  "buffer_font_size": 12,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
@@ -29,5 +29,21 @@
     "svelte": true,
     "sql": true,
     "toml": true
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "experimental.theme_overrides": {
+    // make the backgrounds slightly darker to increase contrast
+    "editor.background": "#242526",
+    "panel.background": "#242526",
+    "terminal.background": "#0e0e0e",
+    "toolbar.background": "#242526",
+    "editor.gutter.background": "#242526"
   }
 }
