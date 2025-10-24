@@ -2,10 +2,13 @@
 
 # CLI tools
 brew install ripgrep
-brew install mise
 brew install --cask codex
 brew install colima
 brew install zsh-autosuggestions
+
+# Mise
+brew install mise
+mise install
 
 # Terminal prompt
 brew install starship

@@ -27,6 +27,7 @@
     "graphql": true,
     "docker-compose": true,
     "svelte": true,
-    "sql": true
+    "sql": true,
+    "toml": true
   }
 }
