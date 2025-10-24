@@ -5,6 +5,8 @@ brew install ripgrep
 brew install colima
 brew install zsh-autosuggestions
 brew install gh
+brew install docker
+brew install docker-compose
 
 # Applications
 brew install --cask codex
