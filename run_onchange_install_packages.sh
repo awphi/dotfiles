@@ -4,6 +4,8 @@
 brew install ripgrep
 brew install mise
 brew install --cask codex
+brew install colima
+brew install zsh-autosuggestions
 
 # Terminal prompt
 brew install starship
