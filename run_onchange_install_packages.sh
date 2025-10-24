@@ -13,6 +13,7 @@ mise install
 # https://mise.jdx.dev/configuration.html#idiomatic-version-files
 mise settings add idiomatic_version_file_enable_tools python
 mise settings add idiomatic_version_file_enable_tools node
+mise settings add idiomatic_version_file_enable_tools go
 
 # Terminal prompt
 brew install starship
