@@ -5,5 +5,5 @@ python = "latest"
 rust = "latest"
 
 [settings]
-idiomatic_version_file_enable_tools = ["python", "node"]
+idiomatic_version_file_enable_tools = ["python", "node", "go", "rust"]
 python.uv_venv_auto = true
