@@ -1,0 +1,4 @@
+- [ ] Add bitwarden CLI
+- [ ] Store ssh keys in bw
+- [ ] Store gpg keys in bw and set up commit signing
+- [ ] Try to add cmd+L bind to spotlight to config or replace with raycast/monarch/alfred etc.
