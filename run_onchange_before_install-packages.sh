@@ -15,6 +15,3 @@ cask "visual-studio-code"
 cask "spotify"
 cask "font-hack-nerd-font"
 EOF
-
-# install latest versions of pre-set language runtimes
-mise install

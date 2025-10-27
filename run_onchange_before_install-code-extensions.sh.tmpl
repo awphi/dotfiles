@@ -1,0 +1,56 @@
+#!/bin/bash
+
+set -euo pipefail
+
+desired=(
+  {{ template "code-extensions.tmpl" }}
+)
+
+# Read installed extensions
+installed=()
+while IFS= read -r line; do
+  [[ -n "$line" ]] && installed+=("$line")
+done < <(code --list-extensions | sort)
+
+# Compute differences
+to_install=()
+to_uninstall=()
+
+for ext in "${desired[@]}"; do
+  if ! printf '%s\n' "${installed[@]}" | grep -qx "$ext"; then
+    to_install+=("$ext")
+  fi
+done
+
+for ext in "${installed[@]}"; do
+  if ! printf '%s\n' "${desired[@]}" | grep -qx "$ext"; then
+    to_uninstall+=("$ext")
+  fi
+done
+
+echo "Syncing VS Code extensions..."
+
+if [[ ${#to_install[@]} -eq 0 && ${#to_uninstall[@]} -eq 0 ]]; then
+  echo "All good! Extensions are already in sync."
+  exit 0
+fi
+
+# Install missing
+if [[ ${#to_install[@]} -gt 0 ]]; then
+  echo "Installing ${#to_install[@]} new extension(s):"
+  for ext in "${to_install[@]}"; do
+    echo "  + $ext"
+    code --install-extension "$ext"
+  done
+fi
+
+# Uninstall extras
+if [[ ${#to_uninstall[@]} -gt 0 ]]; then
+  echo "Uninstalling ${#to_uninstall[@]} extra extension(s):"
+  for ext in "${to_uninstall[@]}"; do
+    echo "  - $ext"
+    code --uninstall-extension "$ext"
+  done
+fi
+
+echo "Done! Extensions are now in sync."

@@ -21,3 +21,8 @@ If you've already got `brew` and `chezmoi` installed, you can simply run:
 ```sh
 chezmoi init --apply --verbose awphi/dotfiles
 ```
+
+# Updating source state
+
+- Regular files: use `chezmoi add`
+- VSCode extensions: re-run `sh .bin/save-code-extensions.sh` after installing/uninstalling any extensions
