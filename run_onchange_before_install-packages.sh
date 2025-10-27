@@ -11,7 +11,7 @@ brew "colima"
 
 cask "google-chrome"
 cask "codex"
-cask "zed"
+cask "visual-studio-code"
 cask "spotify"
 cask "font-hack-nerd-font"
 EOF
