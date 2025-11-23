@@ -1,5 +1,4 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -77,5 +76,6 @@
     "*.s3db": "${capture}.${extname}-*"
   },
   "go.lintTool": "golangci-lint",
-  "go.lintFlags": ["--fast"]
+  "go.lintFlags": ["--fast"],
+  "workbench.iconTheme": "material-icon-theme"
 }

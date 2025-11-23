@@ -1,5 +1,10 @@
 [user]
-name = awphi
-email = 26072111+awphi@users.noreply.github.com
+	name = awphi
+	email = 26072111+awphi@users.noreply.github.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFaFlBR+YKRbVue9s/6EAssugh54Xqd89otVxZrr/T01 adamwph
 [core]
 editor = code
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
