@@ -22,6 +22,8 @@ If you've already got `brew` and `chezmoi` installed, you can simply run:
 chezmoi init --apply --verbose awphi/dotfiles
 ```
 
+> **Note:** If applying to a new machine for the first time, ensure you log in to Bitwarden Desktop and enabled the SSH agent for access to secrets.
+
 # Updating source state
 
 - Regular files: use `chezmoi add`
