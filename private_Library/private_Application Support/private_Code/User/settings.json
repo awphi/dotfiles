@@ -77,5 +77,6 @@
   },
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.external.osxExec": "kitty.app"
 }

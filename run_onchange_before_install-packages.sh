@@ -15,4 +15,5 @@ cask "visual-studio-code"
 cask "spotify"
 cask "font-hack-nerd-font"
 cask "bitwarden"
+cask "kitty"
 EOF
