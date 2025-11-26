@@ -79,5 +79,9 @@
   "go.lintFlags": ["--fast"],
   "workbench.iconTheme": "material-icon-theme",
   "terminal.external.osxExec": "kitty.app",
-  "editor.linkedEditing": true
+  "editor.linkedEditing": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.terminal.activateEnvironment": false
 }

@@ -26,5 +26,5 @@ chezmoi init --apply --verbose awphi/dotfiles
 
 # Updating source state
 
-- Regular files: use `chezmoi add`
+- Regular files: use `chezmoi add` (or just `chezmoi re-add` if only editing files already in source state)
 - VSCode extensions: re-run `sh .bin/save-code-extensions.sh` after installing/uninstalling any extensions
