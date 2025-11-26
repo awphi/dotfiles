@@ -8,7 +8,6 @@ brew "gh"
 brew "docker"
 brew "docker-compose"
 brew "colima"
-brew "xz" # required to install qlty
 
 cask "google-chrome"
 cask "codex"
@@ -18,5 +17,3 @@ cask "font-hack-nerd-font"
 cask "bitwarden"
 cask "kitty"
 EOF
-
-curl https://qlty.sh | bash
