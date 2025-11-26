@@ -6,3 +6,7 @@ eval "$(mise activate zsh)"
 
 # zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# qlty
+export QLTY_INSTALL="$HOME/.qlty"
+export PATH="$QLTY_INSTALL/bin:$PATH"
