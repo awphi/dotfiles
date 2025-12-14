@@ -49,7 +49,7 @@ if [[ ${#to_uninstall[@]} -gt 0 ]]; then
   echo "Uninstalling ${#to_uninstall[@]} extra extension(s):"
   for ext in "${to_uninstall[@]}"; do
     echo "  - $ext"
-    code --uninstall-extension "$ext"
+    code --uninstall-extension "$ext" || true
   done
 fi
 
