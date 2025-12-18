@@ -10,6 +10,7 @@ brew "docker-compose"
 brew "docker-buildx"
 brew "colima"
 brew "flatbuffers"
+brew "gdb"
 
 cask "google-chrome"
 cask "codex"
