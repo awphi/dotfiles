@@ -8,3 +8,4 @@ eval "$(mise activate zsh)"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export GIT_MERGE_AUTOEDIT=no
+export EDITOR='code'

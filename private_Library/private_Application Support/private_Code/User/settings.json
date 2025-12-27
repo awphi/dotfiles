@@ -46,6 +46,12 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
   "editor.fontFamily": "'Hack Nerd Font Mono', Menlo, Monaco, 'Courier New',monospace",
   "editor.minimap.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -80,5 +86,7 @@
   "editor.linkedEditing": true,
   "python.terminal.activateEnvironment": false,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "C_Cpp.clang_format_style": "Google",
+  "extensions.ignoreRecommendations": true
 }
