@@ -82,11 +82,10 @@
   },
   "go.lintTool": "golangci-lint",
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.external.osxExec": "kitty.app",
+  "terminal.external.osxExec": "Ghostty.app",
   "editor.linkedEditing": true,
   "python.terminal.activateEnvironment": false,
   "github.copilot.nextEditSuggestions.enabled": true,
   "workbench.startupEditor": "none",
-  "C_Cpp.clang_format_style": "Google",
-  "extensions.ignoreRecommendations": true
+  "C_Cpp.clang_format_style": "Google"
 }
