@@ -11,6 +11,7 @@ brew "docker-buildx"
 brew "colima"
 brew "flatbuffers"
 brew "uv"
+brew "htop"
 
 cask "google-chrome"
 cask "codex"
