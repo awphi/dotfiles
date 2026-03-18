@@ -12,6 +12,8 @@ brew "colima"
 brew "flatbuffers"
 brew "uv"
 brew "htop"
+brew "eza"
+brew "bat"
 
 cask "google-chrome"
 cask "codex"

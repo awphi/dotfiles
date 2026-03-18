@@ -9,3 +9,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export GIT_MERGE_AUTOEDIT=no
 export EDITOR='code'
+alias ls='eza'
+
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
