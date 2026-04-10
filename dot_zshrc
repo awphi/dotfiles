@@ -1,14 +1,14 @@
-# starship
 eval "$(starship init zsh)"
-
-# mise
 eval "$(mise activate zsh)"
 
-# zsh-autosuggestions
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export GIT_MERGE_AUTOEDIT=no
 export EDITOR='code'
-alias ls='eza'
+alias ls='eza --icons'
+alias cat='bat --paging=never'
+alias cd='z'
 
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+eval "$(zoxide init zsh)"

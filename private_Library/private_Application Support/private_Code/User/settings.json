@@ -88,4 +88,6 @@
   "github.copilot.nextEditSuggestions.enabled": true,
   "workbench.startupEditor": "none",
   "C_Cpp.clang_format_style": "Google",
+  "debug.onTaskErrors": "debugAnyway",
+  "terminal.integrated.initialHint": false,
 }
