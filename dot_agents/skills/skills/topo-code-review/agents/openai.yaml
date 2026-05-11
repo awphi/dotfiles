@@ -1,0 +1,4 @@
+interface:
+  display_name: "Topo Code Review"
+  short_description: "Review branches against coding and PR rules."
+  default_prompt: "Use $topo-code-review to review this branch against CODING_STYLE.md and PULL_REQUESTS.md."
