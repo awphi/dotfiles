@@ -8,3 +8,6 @@ editor = code
 	format = ssh
 [commit]
 	gpgsign = true
+[rerere]
+	enabled = true
+	autoupdate = true

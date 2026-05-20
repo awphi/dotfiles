@@ -59,6 +59,8 @@ Ask: "What should the public interface look like? Which behaviors are most impor
 
 **You can't test everything.** Confirm with the user exactly which behaviors matter most. Focus testing effort on critical paths and complex logic, not every possible edge case.
 
+Where possible, and the language permits, opt to write black-box tests that only interact with the public API. This ensures your tests verify behavior, not implementation. For example, in Go you should write tests in a separate package (i.e., `package foo_test`) to force yourself to use only exported functions.
+
 ### 2. Tracer Bullet
 
 Write ONE test that confirms ONE thing about the system:

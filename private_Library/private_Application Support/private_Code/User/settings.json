@@ -90,4 +90,8 @@
   "C_Cpp.clang_format_style": "Google",
   "debug.onTaskErrors": "debugAnyway",
   "terminal.integrated.initialHint": false,
+  "topo.loggingVerbosity": "info",
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+  "zig.zls.enabled": "on",
 }

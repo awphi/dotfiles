@@ -5,9 +5,23 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export GIT_MERGE_AUTOEDIT=no
 export EDITOR='code'
+
+alias pi='mise exec node@lts -- pi'
 alias ls='eza --icons'
 alias cat='bat --paging=never'
 alias cd='z'
+
+alias g='git'
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gcm='git commit -sm'
+alias gcam='git commit -sam'
+alias gp='git push'
+alias gl='git log --oneline --graph --decorate'
+alias glg='git log --oneline --graph --decorate --all'
+alias gco='git checkout'
+alias gb='git branch'
 
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 

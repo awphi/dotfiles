@@ -1,5 +1,16 @@
 # Global Agent Instructions
 
+1. Don’t assume. Don’t hide confusion. Surface tradeoffs.
+2. Minimum code that solves the problem. Nothing speculative.
+3. Touch only what you must. Clean up only your own mess.
+4. Define success criteria. Loop until verified.
+
+## Tool Preferences
+
+- Prefer specialized tools over shell commands when they fit the task.
+- For file discovery, prefer Pi's built-in `find` tool or `fd` over POSIX `find` via bash.
+- Use POSIX `find` only when `fd` is unavailable or exact POSIX `find` semantics are needed.
+
 ## Coding Style
 
 When writing code, carefully consider the following guidance and only deviate from it if you have a strong reason to do so (i.e. simplicity, following existing patterns, ambiguity in requirements). Explain trade-offs you've made against these criteria when required.

@@ -1,16 +1,17 @@
 {
   "packages": [
     "npm:pi-web-access",
-    "npm:pi-subagents",
     "npm:pi-powerline-footer",
     "npm:pi-mcp-adapter",
-    "npm:pi-openai-service-tier"
+    "npm:pi-openai-service-tier",
+    "npm:pi-subagents"
   ],
-  "lastChangelogVersion": "0.73.0",
+  "lastChangelogVersion": "0.75.3",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
   "theme": "dracula-vivid",
   "defaultThinkingLevel": "high",
   "powerline": "default",
-  "quietStartup": false
+  "quietStartup": false,
+  "steeringMode": "all"
 }

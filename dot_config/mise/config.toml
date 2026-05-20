@@ -3,6 +3,7 @@ go = "latest"
 node = "lts"
 python = "latest"
 rust = "latest"
+zig = "0.16.0"
 
 [settings]
 idiomatic_version_file_enable_tools = ["python", "node", "go", "rust"]
